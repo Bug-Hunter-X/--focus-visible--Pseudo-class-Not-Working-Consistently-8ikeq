@@ -1,0 +1,13 @@
+/* bugSolution.css */
+
+button {
+  outline: none;
+  transition: box-shadow 0.1s ease;
+}
+
+button:focus-visible {
+  box-shadow: 0 0 0 3px #4CAF50;
+}
+
+/* This approach is still not perfectly reliable across all browsers and situations
+   but it addresses the issue in many cases. Testing on diverse platforms is key. */
