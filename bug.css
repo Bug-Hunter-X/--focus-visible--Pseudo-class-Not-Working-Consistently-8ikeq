@@ -1,0 +1,1 @@
+The CSS rule `:focus-visible` is not working as expected in my application.  I'm using it to only show the focus outline for elements when the user is explicitly using a keyboard or assistive technology, and not when they are using a mouse. However, the outline is still appearing when clicking with a mouse.
